@@ -2,8 +2,7 @@
 
 ##### This page is under construction 🚧
 
-This page has resources and links 
-
+This page has resources and links and is not yet organized. 
 The Python wiki is more thorough , this page was created to organize links and 
 
 # Academic Paper: OpenMindat: Open and FAIR mineralogy data from the Mindat database
@@ -13,18 +12,13 @@ The Python wiki is more thorough , this page was created to organize links and
 - Open Access Paper; an inspiring research initiative!
 
 
-
-
-
 # Mindat.org 
-mindat.org - the world's most comprehensive mineral database and mineralogical reference website. 
-
-## "How do I get my API Key?" Article on Mindat.org
+## mindat.org - the world's most comprehensive mineral database and mineralogical reference website. 
+### "How do I get my API Key?" Article on Mindat.org
 https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
 
-# Python for Mineral Data Science
-
+# The Python Language for Mineral Data Science
 ## OpenMindat Python 
 ### An OpenMindat Python package in active development
 ### https://github.com/ChuBL/OpenMindat/wiki
@@ -32,16 +26,21 @@ https://www.mindat.org/a/how_to_get_my_mindat_api_key
 - An excellent resource with documentation.
 - Author(s): Jiyin Zhang
 
-## Learning Python for Data Science and Mineralogy 
+### Learning Python for Data Science and Mineralogy 
 
 Python is a programming language that is accessible and well-suited for data science. If you are new to 
- FreeCodeCamp.com has resources for those new to and learning Python
+ FreeCodeCamp.com has resources for those new to and learning Python. The Python IDLE is the fastest way to get started. 
 
 ```Python
-# Python uses octothorpes (#) to comment code
+# This is what the Python programming language looks like
 
 # Define a variable
 x = 5
+
+# Print the variable
+print(x)
+
+# Here the console 
 ```
 
 
@@ -52,11 +51,10 @@ x = 5
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]
 - Allows access to the Mindat.org resources through the R programming language for data science activities. 
-- R Programming Language
-
 
 
 # JavaScript for Mineralogical Data Science
+
 
  🚧
 
@@ -69,40 +67,21 @@ x = 5
 
 # Rust for Mineralogical Data Science
 
-The Rust Programming Langauge exists! 🦀 I don't yet know *how* structs and enums can be applied to minerals in a datascience context but I know that Rust can be an effective tool here
+The Rust Programming Langauge exists! 🦀 I don't yet know *how* structs and enums can be applied to minerals in a datascience context but I know that Rust can be an effective tool here. 
+
+## Exporting Mineral Data from a Web Query Builder
+
+Some combination of Rust / JavaScript / Python / R / etc ... existing on the mindat server could allow someone to work with Comma Separated Values (.csv) files for use in something like Excel, VisiCalc, GoogleSheets, or Libre Spreadsheets. Having a tool here could help non-programmers work with .csv files and perhaps be a good introduction to data science tools? This notion is 1) an education opportunity 2) an accessibility thing for non-programmers and 3) something for consideration on the backend of the OpenMindat server. 
+
+R and Python are excellent first packages to implement OpenMindat. 
+
+
+# Excel & Similar for Data Science with Mineral Data
+
+🚧
 
 
 
-# Research & Journal Articles, and Completed Packages
-# **OpenMindat: Open and FAIR mineralogy data from the Mindat database** 
-#### Author(s): Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
-#### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
-- https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 
-- Open Access Paper; an inspiring research initiative! 
-
-## OpenMindat R Package
-#### "An R package for querying and accessing open data from the Mindat API."
-- Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
-- Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]
-- Allows access to the Mindat.org resources through the R programming language for data science activities. 
-- R Programming Language
-
-## OpenMindat Python 
-- "This is a test version of the OpenMindat Python package, designed to facilitate querying and retrieving data on minerals and geomaterials from the Mindat API."
-- https://github.com/ChuBL/OpenMindat and forks of
-- Python Programming Language
-- Author(s): Jiyin Zhang
-- https://github.com/ChuBL/OpenMindat/wiki
-
-## Directly Accessing the Mindat.org server through OpenMindat's API
-
-- Mindat.org's server runs PHP to a MySQL database (presumably w/ Apache Web Server & Linux for a "LAMP" configuration).
-- Using the API (Application Program Interface), mineralogy data can be directly accessed ! The data and accessibility of the data is much improved through the OpenMindat research (see above). 
-- Source: https://api.mindat.org/schema/redoc/
-- Author(s): Jiyin Zhang, CoryIC
-- .YAML download available, OpenAPI Documentation formats the API through the YAML markup.
-  #### "How do I get my API Key?" Article on Mindat.org
-  https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
 # OpenMindat Usage on GitHub.com
 ## Mindat Data Collector
@@ -141,6 +120,11 @@ https://github.com/MelorGloom/Crystal-Info-Scrapper
 - https://www.earthdatascience.org/
 - Free Earth Data Science Courses & Textbooks
 - Learn scientific programming, reproducible open science workflows and data science today.
+
+## That one O'Riely book on transistioning to Python / R from Excel 
+
+
+
 
 
 # What is this repository here?

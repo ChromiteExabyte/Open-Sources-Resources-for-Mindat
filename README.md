@@ -1,42 +1,29 @@
-# Open-Source Resources for Mindat
-
-This page contains resources relating to the Mindat.org's Application Program Interface (API) and implementations. 
+# Open-Source Resources for Mindat & Data Science 🪨
 
 
-
+##### This page is under construction 
 
 
 
-# **OpenMindat: Open and FAIR mineralogy data from the Mindat database** 
-## Open Mindat Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
-### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
+# Academic Paper: OpenMindat: Open and FAIR mineralogy data from the Mindat database
+### Open Mindat Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
+#### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 
 - Open Access Paper; an inspiring research initiative!
 
-# Mindat
+# Mindat.org 
 mindat.org - the world's most comprehensive mineral database and mineralogical reference website. 
 
 ## "How do I get my API Key?" Article on Mindat.org
   https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
 
-
-
-
-
-
-## OpenMindat Wiki
-- https://github.com/ChuBL/OpenMindat/wiki
-
-
-
-
-
-# Python and Mindat.org
+# Python and Mindat Data Science Resources 
 
 ## OpenMindat Python 
-### - https://github.com/ChuBL/OpenMindat/wiki
-
+### An OpenMindat Python package in active development
+### https://github.com/ChuBL/OpenMindat/wiki
+- "This is a test version of the OpenMindat Python package, designed to facilitate querying and retrieving data on minerals and geomaterials from the Mindat API."
 
 
 An excellent resource with full documentation: 
@@ -44,9 +31,8 @@ An excellent resource with full documentation:
 - "This is a test version of the OpenMindat Python package, designed to facilitate querying and retrieving data on minerals and geomaterials from the Mindat API."
 **Repository:** https://github.com/ChuBL/OpenMindat 
 - Author(s): Jiyin Zhang
-- https://github.com/ChuBL/OpenMindat/wiki
 
-#
+## Python for beginners and intermediates 
 Python is a programming language that is accessible and well-suited for data science. If you are new to 
 
 

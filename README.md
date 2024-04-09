@@ -3,30 +3,41 @@
 
 #### 🚧 This page is under construction 🚧
 
-This page has resources and links to projects relating to Mindat.org's API, OpenMindat, and the intersection of data + Earth science. This is a community maintained repository and is not affiliated with any of the projects below. 
+This page has resources, links, and guides relating to the Mindat.org mineralogy database and its new application program interface (API). This API establishes many practical affordances to those working with mineralogical data. The context, improvements, and changes relating to Mindat and the API can be found in paper "OpenMindat" (Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204) 
 
-The website Mindat.org has implemented an Application Program Interface (API). For more information, please see the link below. 
+This is a community maintained repository and is not affiliated with any of the projects below. This GitHub repository does contain links to other resources and further resources, but this repository is not thoroughly cited yet. 
+
+
+
+
+
 
 
 
 # Academic Research 
 # 
 ## OpenMindat: Open and FAIR mineralogy data from the Mindat database
-#### Open Mindat Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
+### Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
 #### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 
 - Open Access Paper; an inspiring research initiative!
-
-
-
+- ⭐
 
 
 # 
-## Mindat.org 
-## mindat.org - the world's most comprehensive mineral database and mineralogical reference website. 
+# Mindat.org
+#
+## The world's most comprehensive mineral database and mineralogical reference website"
+#
 ### "How do I get my API Key?" Article on Mindat.org
+
 https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
+For those interested in using the API for any purposes, there are two ways to
+
+### Mindat API Specification 
+
+The specification for the API can be found at https://api.mindat.org/schema/redoc/ and is downloadable as .YAML
 
 
 ### Queries Currently Available through Mindat.org's Website 
@@ -40,31 +51,50 @@ https://www.mindat.org/chemsearch.php
 
 https://www.mindat.org/advanced_search.php
 
+#### Random Mineral, Random Locality 
+
+The `Random Mineral` and `Random Locality` search options run a PHP script that generates a pseudorandom query.
+
+
+
+
+### Downloading the full Mindat database 
+
+The current footprint of the total Mindat database is (?)GB. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 #
 # Machine Interfaces for the Mindat Database
 
-When conducting
+There are two distinct things that can be done with this API and such: 
 
-1) Retrieving 
+1) Retrieving the data from the website 
+2) Manipulation and analysis of that data
 
 
-
-
-## The R Programming Language
-### OpenMindat R Package
+## OpenMindat R Package
 ##### "An R package for querying and accessing open data from the Mindat API."
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]
-- Allows access to the Mindat.org resources through the R programming language for data science activities. 
+- "Allows access to the Mindat.org resources through the R programming language for data science activities."
+- R Markdown also !
 
-
-
-## The Python Programming Language 
-
-The Python programming language exists. It's well suited for
 
 
 ## OpenMindat Python 
@@ -74,32 +104,26 @@ The Python programming language exists. It's well suited for
 - An excellent resource with documentation.
 - Author(s): Jiyin Zhang
 
-### Learning Python for Data Science and Mineralogy 
-
-Python is a programming language that is accessible and well-suited for data science. 
-If you are new to computer programming, Python is an excellent choice. 
-
-- FreeCodeCamp.com has an interactive "Scientific Computing With Python" course.
-  
-- The 'Python IDLE' is a programming environment officially associated with the Python language. It is an a the faste way to get started. 
 
 
 
 
 
+## Downloading from Mindat.org with JavaScript in the Browser
 
-### JavaScript for Mineralogical Data Science
+🚧
 
-JavaScript is not a programming language, technically. 
- 🚧
+## The Julia Programming Language for 
 
+🚧
  
 ## Retrieval Augmented Generation (RAG) with the Mindat.org Database
 
+🔡
 
 ## The Rust Programming Language
 
-The Rust Programming Language, like any 🦀 
+🦀 
 
 
 
@@ -186,16 +210,19 @@ https://github.com/ChuBL/How-to-Use-Mindat-API
 - Source: https://github.com/jolyonralph/mindat_api_test
 - Author(s): Jolyon Ralph
 - Python Programming Language
+- 
 
 ### Asynchronous Fork of the above repository
 
+- ""
 - Source: https://github.com/MrHamel/mindat_api_test
 - Author(s): Ryan Hamel
 - Python Programming Language
+- Unmaintained
 
 ##### An implementation of Mindat.org web-scraping in Python prior to the OpenMindat 
 
-https://github.com/MelorGloom/Crystal-Info-Scrapper
+- Source: https://github.com/MelorGloom/Crystal-Info-Scrapper
 
 
 ### Possible exporting
@@ -205,15 +232,48 @@ Some combination of Rust / JavaScript / Python / R / etc ... existing on the min
 R and Python are excellent first packages to implement OpenMindat. 
 
 
-# :Resources for Learning Data Science 🔬🧮
+# Resources for Learning 📖
 
-## Earth Lab
+## Cross Disciplinary 
+
 - https://www.earthdatascience.org/
 - Free Earth Data Science Courses & Textbooks
 - Learn scientific programming, reproducible open science workflows and data science today.
 
-## W
 
+## Geoscience 🪨🔨
+
+#### Open Geology 
+
+- Source: https://opengeology.org/
+
+#### British & Exotic Mineralogy
+
+- Source(s):
+
+- "All 2,242 illustrations from James Sowerby’s compendium of knowledge about mineralogy in Great Britain and beyond, drawn 1802–1817 and arranged by color."
+
+
+
+## Computer Science and Data Science 🔬🧮
+
+
+#### Learning Python for Data Science and Mineralogy 
+
+Python is a programming language that is accessible and well-suited for data science. If you are new to computer programming, Python is an excellent choice. 
+
+- FreeCodeCamp.com has an interactive "Scientific Computing With Python" course.
+- The 'Python IDLE' is a programming environment associated with the Python language. 
+
+
+
+
+
+### Data Science Resources Online
+
+
+
+### Data Science Books 
 Advancing into Analytics: From Excel to Python and R (O’Reilly)
 https://stringfestanalytics.com/book/
 

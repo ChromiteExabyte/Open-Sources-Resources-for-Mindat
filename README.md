@@ -1,5 +1,4 @@
-# Open-Source Resources for Mindat, Data Science, and Earth Sciences 
-## 🪨
+# Open-Source Resources for Mindat API, Earth Science, and Data Science
 
 #### 🚧 This page is under construction 🚧
 
@@ -75,7 +74,7 @@ The API for Mindat.org removes the need for web scraping. While you can use web-
 It is important to make a distinction in the usage of the Mindat API: querying and downloading data from the Mindat website is _not_ the same as data analytics and data science with the mineralogy data. 
 
 
-## [OpenMindat - Quickly Retrieve Datasets from the 'mindat.org' API](https://cran.r-project.org/web/packages/OpenMindat/index.html "Mindat API R Package)
+## [OpenMindat - Quickly Retrieve Datasets from the 'mindat.org' API](https://cran.r-project.org/web/packages/OpenMindat/index.html "Mindat API R Package")
 ##### "An R package for querying and accessing open data from the Mindat API."
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]
@@ -100,13 +99,18 @@ It is important to make a distinction in the usage of the Mindat API: querying a
 
 🚧
 
+
 ### The Julia Programming Language for Mindat
 
-🚧
+The Julia Programming Language is capable of data science activities alongside or in parallel with Python and R. 
+
+There exists an R package that allows calls to the Julia lang from R (https://cran.r-project.org/web/packages/JuliaCall/readme/README.html). 
+
+There exists a Julia package that allows calls to Python package that may be interoperable with the Python Mindat package. The Julia package may be found at (https://juliahub.com/ui/Packages/General/PyCall). 
  
 ### Retrieval Augmented Generation (RAG) with the Mindat.org Database
 
-🔡
+🔡 There are many minerals and many mineral properties. Any large language model (LLM) to generate tokens in response to user text could, if connected to the internet, query the Mindat database for factual retrieval of geomaterial properties. If a user asks an LLM _"Is Sakuraiite a real mineral?"__, the LLM could call a simple function to the Mindat database to check. This kind of functionality could be built out through the [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) or [Langchain](https://github.com/langchain-ai/langchain).
 
 ### The Rust Programming Language
 
@@ -114,7 +118,7 @@ It is important to make a distinction in the usage of the Mindat API: querying a
 
 ### Comma Separated Values (.csv) files through Excel, LibreOfficeCalc, 
 
-🚧
+🚧 Not all people interested in using the Mindat API are familar with programming languages. There are many great resources for folks to learn, however, the usecase of Mindat to .csv outputs is important. The fastest way right now to output .csv's is through R. 
 
 
 

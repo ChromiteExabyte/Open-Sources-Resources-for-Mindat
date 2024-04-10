@@ -3,7 +3,9 @@
 
 #### 🚧 This page is under construction 🚧
 
-This page has resources, links, and guides relating to the Mindat.org mineralogy database and its new application program interface (API). This API establishes many practical affordances to those working with mineralogical data. The context, improvements, and changes relating to Mindat and the API can be found in paper "OpenMindat" (Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204) 
+💡To find what you are looking for, click on the three lines in the upper right of this box to see headings. You can also scroll through this page at speed to find the links you are need. 
+
+This page has resources, links, and guides relating to the Mindat.org mineralogy database and its new application program interface (API). This API establishes many practical affordances to those working with mineralogical data. The context, improvements, and changes relating to Mindat and the API can be found in paper "OpenMindat" which is linked to in the first section below. 
 
 This is a community maintained repository and is not affiliated with any of the projects below. This GitHub repository does contain links to other resources and further resources, but this repository is not thoroughly cited yet. 
 
@@ -15,7 +17,7 @@ This is a community maintained repository and is not affiliated with any of the 
 
 
 # 
-# OpenMindat: Open and FAIR mineralogy data from the Mindat database
+# [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
 ### Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
 #### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 
@@ -37,23 +39,17 @@ For those interested in using the API, there is an official tutorial on this web
 
 
 
-### Mindat API Specification 
+### [Mindat API Specification page in .YAML format through OpenAPI](https://api.mindat.org/schema/redoc/ "Mindat's API Access Points"
 
 The specification for the API can be found at https://api.mindat.org/schema/redoc/ and is downloadable as a .YAML file. The Mindat API can be used with the R and Python packages as well as proprietary packages. 
 
 
 ###  Mindat.org's Current Search Functionality
 
-For some use cases, the 
 
-
-#### Search Minerals By Chemistry
-
-https://www.mindat.org/chemsearch.php
-
-#### Advanced Mineral Search
-
-https://www.mindat.org/advanced_search.php
+- [Mindat's Full Search Menu](https://www.mindat.org/searchmenu.php)
+- [Search Minerals By Chemistry](https://www.mindat.org/chemsearch.php)
+- [Advanced Search](https://www.mindat.org/advanced_search.php)
 
 #### Random Mineral, Random Locality 
 
@@ -79,7 +75,7 @@ The API for Mindat.org removes the need for web scraping. While you can use web-
 It is important to make a distinction in the usage of the Mindat API: querying and downloading data from the Mindat website is _not_ the same as data analytics and data science with the mineralogy data. 
 
 
-## OpenMindat R Package
+## [OpenMindat R Package](https://cran.r-project.org/web/packages/OpenMindat/index.html)
 ##### "An R package for querying and accessing open data from the Mindat API."
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]

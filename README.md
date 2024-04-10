@@ -29,9 +29,9 @@ This is a community maintained repository and is not affiliated with any of the 
 # [Mindat.org](Mindat.org)
 ## The world's most comprehensive mineral database and mineralogical reference website"
 #
-### "How do I get my API Key?" Article on Mindat.org by Jiyin Zhang
+### ['How do I get my API Key?' article on Mindat.org by Jiyin Zhang](https://www.mindat.org/a/how_to_get_my_mindat_api_key "'How do I get my API Key?' article on Mindat.org by Jiyin Zhang")
 
-https://www.mindat.org/a/how_to_get_my_mindat_api_key
+Source: https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
 For those interested in using the API, there is an official tutorial on this webpage. As of April 10th 2024, the article has 3,125 views! 
 
@@ -75,7 +75,7 @@ The API for Mindat.org removes the need for web scraping. While you can use web-
 It is important to make a distinction in the usage of the Mindat API: querying and downloading data from the Mindat website is _not_ the same as data analytics and data science with the mineralogy data. 
 
 
-## [OpenMindat R Package](https://cran.r-project.org/web/packages/OpenMindat/index.html)
+## [OpenMindat - Quickly Retrieve Datasets from the 'mindat.org' API](https://cran.r-project.org/web/packages/OpenMindat/index.html "Mindat API R Package)
 ##### "An R package for querying and accessing open data from the Mindat API."
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]

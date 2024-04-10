@@ -35,11 +35,11 @@ https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
 For those interested in using the API, there is an official tutorial on this webpage. As of April 10th 2024, the article has 3,125 views! 
 
-**A user may generate an API key on for their own **
+**A user may generate an API key from their Mindat user page or from their  **
 
 
 
-### [Mindat API Specification page in .YAML format through OpenAPI](https://api.mindat.org/schema/redoc/ "Mindat's API Access Points"
+### [Mindat API Specification page in .YAML format through OpenAPI](https://api.mindat.org/schema/redoc/ "Mindat's API Access Points")
 
 The specification for the API can be found at https://api.mindat.org/schema/redoc/ and is downloadable as a .YAML file. The Mindat API can be used with the R and Python packages as well as proprietary packages. 
 
@@ -84,7 +84,7 @@ It is important to make a distinction in the usage of the Mindat API: querying a
 
 
 
-## OpenMindat Python 
+## [OpenMindat Python](https://github.com/ChuBL/OpenMindat/wiki)
 ### An OpenMindat Python package in active development
 ### https://github.com/ChuBL/OpenMindat/wiki
 - "This is a test version of the OpenMindat Python package, designed to facilitate querying and retrieving data on minerals and geomaterials from the Mindat API."

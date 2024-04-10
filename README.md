@@ -14,9 +14,8 @@ This is a community maintained repository and is not affiliated with any of the 
 
 
 
-# Academic Research 
 # 
-## OpenMindat: Open and FAIR mineralogy data from the Mindat database
+# OpenMindat: Open and FAIR mineralogy data from the Mindat database
 ### Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
 #### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 
@@ -25,22 +24,27 @@ This is a community maintained repository and is not affiliated with any of the 
 
 
 # 
-# Mindat.org
-#
+# [Mindat.org](Mindat.org)
 ## The world's most comprehensive mineral database and mineralogical reference website"
 #
-### "How do I get my API Key?" Article on Mindat.org
+### "How do I get my API Key?" Article on Mindat.org by Jiyin Zhang
 
 https://www.mindat.org/a/how_to_get_my_mindat_api_key
 
-For those interested in using the API for any purposes, there are two ways to
+For those interested in using the API, there is an official tutorial on this webpage. As of April 10th 2024, the article has 3,125 views! 
+
+**A user may generate an API key on for their own **
+
+
 
 ### Mindat API Specification 
 
-The specification for the API can be found at https://api.mindat.org/schema/redoc/ and is downloadable as .YAML
+The specification for the API can be found at https://api.mindat.org/schema/redoc/ and is downloadable as a .YAML file. The Mindat API can be used with the R and Python packages as well as proprietary packages. 
 
 
-### Queries Currently Available through Mindat.org's Website 
+###  Mindat.org's Current Search Functionality
+
+For some use cases, the 
 
 
 #### Search Minerals By Chemistry
@@ -56,21 +60,9 @@ https://www.mindat.org/advanced_search.php
 The `Random Mineral` and `Random Locality` search options run a PHP script that generates a pseudorandom query.
 
 
-
-
 ### Downloading the full Mindat database 
 
-The current footprint of the total Mindat database is (?)GB. 
-
-
-
-
-
-
-
-
-
-
+The current footprint of the total Mindat database is measurable in gigabytes. While it is lighter than having all of those geomaterials in a backback, there are still considerations of storage and data handling that must be undertaken. 
 
 
 
@@ -80,12 +72,11 @@ The current footprint of the total Mindat database is (?)GB.
 
 
 #
-# Machine Interfaces for the Mindat Database
+# Machine Interfaces with the for the Mindat Database
 
-There are two distinct things that can be done with this API and such: 
+The API for Mindat.org removes the need for web scraping. While you can use web-scraping methods on the Mindat.org website [example of old web scraper](https://github.com/MelorGloom/Crystal-Info-Scrapper/blob/main/main.py "Mindat Web Scraper on Github.com"), this method is now outdated. 
 
-1) Retrieving the data from the website 
-2) Manipulation and analysis of that data
+It is important to make a distinction in the usage of the Mindat API: querying and downloading data from the Mindat website is _not_ the same as data analytics and data science with the mineralogy data. 
 
 
 ## OpenMindat R Package
@@ -93,7 +84,7 @@ There are two distinct things that can be done with this API and such:
 - Source: https://cran.r-project.org/web/packages/OpenMindat/index.html
 - Author(s): Xiang Que [aut, cre], Xiaogang Ma [aut]
 - "Allows access to the Mindat.org resources through the R programming language for data science activities."
-- R Markdown also !
+- ⭐
 
 
 
@@ -103,67 +94,31 @@ There are two distinct things that can be done with this API and such:
 - "This is a test version of the OpenMindat Python package, designed to facilitate querying and retrieving data on minerals and geomaterials from the Mindat API."
 - An excellent resource with documentation.
 - Author(s): Jiyin Zhang
+- ⭐
 
 
 
 
 
-
-## Downloading from Mindat.org with JavaScript in the Browser
+### Downloading from Mindat.org with JavaScript in the Browser
 
 🚧
 
-## The Julia Programming Language for 
+### The Julia Programming Language for Mindat
 
 🚧
  
-## Retrieval Augmented Generation (RAG) with the Mindat.org Database
+### Retrieval Augmented Generation (RAG) with the Mindat.org Database
 
 🔡
 
-## The Rust Programming Language
+### The Rust Programming Language
 
 🦀 
 
-
-
-##
-
-
-# 
-# Working with 
-
-
-
-# Understanding Data parsed by the Mindat.api
-
-
-
-
-
-
-
-
-
-# Data Science, Data Analytics, and 
-
-## 
-
-
-
-## Comma Separated Values (.csv) files through Excel, LibreOfficeCalc, 
+### Comma Separated Values (.csv) files through Excel, LibreOfficeCalc, 
 
 🚧
-
-
-
-
-
-
-
-# Where can related Geoscience Resources be found? 
-
-![[gdj3204-fig-0003-m.jpg]]
 
 
 
@@ -174,26 +129,13 @@ There are two distinct things that can be done with this API and such:
 - Source: https://github.com/MisterSirCode/Mindat-Data-Collector
 - Language: JavaScript
 - 
-
-
-# Community Resources 
-
-
-## How to use the Mindat API
-
 https://github.com/ChuBL/How-to-Use-Mindat-API
 
 
 
 
 
-
-# Established Use-cases of the Mindat API
-
-
-
 ## Mindat API on GitHub.com
-
 
 
 
@@ -220,25 +162,22 @@ https://github.com/ChuBL/How-to-Use-Mindat-API
 - Python Programming Language
 - Unmaintained
 
-##### An implementation of Mindat.org web-scraping in Python prior to the OpenMindat 
+##### Mindat.org web-scraping in Python (Outdated / Ineffecient)
 
 - Source: https://github.com/MelorGloom/Crystal-Info-Scrapper
+- PostgreSQL and Python
 
 
-### Possible exporting
-
-Some combination of Rust / JavaScript / Python / R / etc ... existing on the mindat server could allow someone to work with Comma Separated Values (.csv) files for use in something like Excel, VisiCalc, GoogleSheets, or Libre Spreadsheets. Having a tool here could help non-programmers work with .csv files and perhaps be a good introduction to data science tools? This notion is 1) an education opportunity 2) an accessibility thing for non-programmers and 3) something for consideration on the backend of the OpenMindat server. 
-
-R and Python are excellent first packages to implement OpenMindat. 
-
-
-# Resources for Learning 📖
+# Open Resources for Learning 📖
 
 ## Cross Disciplinary 
+
+### Earth Data Science
 
 - https://www.earthdatascience.org/
 - Free Earth Data Science Courses & Textbooks
 - Learn scientific programming, reproducible open science workflows and data science today.
+- Python and Earth Data Science
 
 
 ## Geoscience 🪨🔨
@@ -246,13 +185,13 @@ R and Python are excellent first packages to implement OpenMindat.
 #### Open Geology 
 
 - Source: https://opengeology.org/
+- An excellent collection of open source textbooks!
 
 #### British & Exotic Mineralogy
 
-- Source(s):
-
+- Source(s): https://www.c82.net/mineralogy/
 - "All 2,242 illustrations from James Sowerby’s compendium of knowledge about mineralogy in Great Britain and beyond, drawn 1802–1817 and arranged by color."
-
+- Interactive website 
 
 
 ## Computer Science and Data Science 🔬🧮
@@ -273,18 +212,11 @@ Python is a programming language that is accessible and well-suited for data sci
 
 
 
-### Data Science Books 
+#### Data Science Books 
 Advancing into Analytics: From Excel to Python and R (O’Reilly)
 https://stringfestanalytics.com/book/
 
 
-
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
 
 
 

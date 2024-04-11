@@ -67,7 +67,7 @@ The current footprint of the total Mindat database is measurable in gigabytes. W
 
 
 #
-# Machine Interfaces with the for the Mindat Database
+# Machine Interfaces with Mindat Database
 
 The API for Mindat.org removes the need for web scraping. While you can use web-scraping methods on the Mindat.org website [example of old web scraper](https://github.com/MelorGloom/Crystal-Info-Scrapper/blob/main/main.py "Mindat Web Scraper on Github.com"), this method is now outdated. 
 

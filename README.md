@@ -69,7 +69,8 @@ The current footprint of the total Mindat database is measurable in gigabytes. I
 🚧 Items I would like to add to this guide: 
 - Downloading the entire Mindat database to a local copy.
 - Verifying a local database has the most correct information
-- 
+
+MrSirCode has a JavaScript implementation below, but I 
 
 
 
@@ -100,10 +101,7 @@ It is important to make a distinction in the usage of the Mindat API: querying a
 
 ## Comma Separated Values (.csv) from the Mindat 
 
-🚧 Not all people interested in using the Mindat API are familar with the programming of digital computers. There are many great resources for folks to learn and anyone interested can get started within an hour. However, the usecase of Mindat to .CSV outputs is important and I think that the Mindat API can facilitate this. At present, Python and R are the only solid options (as I understand).
-
-
-
+🚧 Not all people interested in using the Mindat API are familar with the programming of digital computers. There are many great resources for folks to learn and anyone interested can get started within an hour. However, the usecase of Mindat to .CSV outputs is important and I think that the Mindat API can facilitate this. At present, Python and R are the only completed official implementations.
 
 
 
@@ -129,17 +127,25 @@ There exists a Julia package that allows calls to Python package that may be int
 
 ### The Rust Programming Language
 
-🦀 Rust is a systems level language. Rust in the browser may be usable through 
+🦀 Rust is a systems level language. Rust in the browser may be usable through WebAssembly to handle JSON, sort the data as downloaded, allow for downloads into a non-relational database schema. 
 
 
 
 # OpenMindat Usage on GitHub.com
+
+## MindatGIS
+
+- Source: https://github.com/fros1y/mindatGIS
+- Language: Python
+- Author: Martin G / "fros1y"
+- _"Export Mindat Mineral Information to GeoPackages for GIS"_
+
 ## Mindat Data Collector
 
 - Source: https://github.com/MisterSirCode/Mindat-Data-Collector
 - Language: JavaScript
-
-
+- Author: Schneider / "MisterSirCode"
+- _"This is a simple little NodeJS tool I threw together to show how to use the Mindat API to repeatedly grab pages of info from mindat to copy an entire database locally."_
 
 
 

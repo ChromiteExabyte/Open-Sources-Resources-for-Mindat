@@ -1,18 +1,28 @@
 # Open-Source Resources for Mindat API, Earth Science, and Data Science
 
-## **🚧 This page is under construction 🚧**
+## **🌏🚧 This page is under construction 🚧🌎**
 
 This is a community maintained repository and is not affiliated with any of the projects below. There are links and resources to Mindat & it's API, associated R / Python packages, and related development projects. 
 
-# 
-# [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
+# Academic Research 
+## [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
 ### Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
 #### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204
- 
 - Open Access Paper; an inspiring research initiative!
 - The Mindat API and improvements to the data establishes many practical affordances to those working with mineral information !
 - ⭐
+
+- LLM Summary of Abstract: _The open data movement revolutionizes mineralogy, enabling exploration of new topics like mineral ecology and evolution. Availability of open data, coupled with data science and mineralogy expertise, leads to significant discoveries. Feedback highlights the need for better FAIRness (findable, accessible, interoperable, reusable) of open data. This paper discusses recent efforts to build Mindat's open data service, enhancing data quality and establishing a machine interface for data access. OpenMindat aims to meet researchers' increasing data needs in mineralogy, providing an internationally recognized, FAIR-compliant database to accelerate scientific discoveries._
+
+## K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization
+### Authors: Cheng Deng, Tianhang Zhang, Zhongmou He, Yi Xu, Qiyuan Chen, Yuanyuan Shi, Luoyi Fu, Weinan Zhang, Xinbing Wang, Chenghu Zhou, Zhouhan Lin, Junxian He, Zhouhan Lin, Junxian He
+- Accessible at: https://arxiv.org/abs/2306.05064
+- Code Source: https://github.com/davendw49/k2
+- Paper Preprint available on arXiv (2306.05064); paper accepted The 17th ACM International Conference on Web Search and Data Mining
+- ⭐
+
+- LLM Summary of Abstract: _"Introducing K2, the first large language model (LLM) for geoscience, along with GeoSignal, a dataset for aligning LLM responses to geoscience queries, and GeoBench, the first geoscience LLM benchmark. The LLaMA-7B model was fine-tuned on 5.5B tokens of geoscience text, including 1M+ literature pieces, and equipped K2 with geoscience abilities. The approach and datasets, along with all training data and model checkpoints, are open-sourced at [link]."_
 
 #
 # [Mindat.org](Mindat.org)
@@ -121,11 +131,21 @@ There exists a Julia package that allows calls to Python package that may be int
  
 ### Retrieval Augmented Generation (RAG) with the Mindat.org Database
 
-🔡 There are many minerals and many mineral properties. Any large language model (LLM) to generate tokens in response to user text could, if connected to the internet, query the Mindat database for factual retrieval of geomaterial properties. If a user asks an LLM _"Is Sakuraiite a real mineral?"__, the LLM could call a simple function to the Mindat database to check. This kind of functionality could be built out through the [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) or [Langchain](https://github.com/langchain-ai/langchain), or another tool altogether.
+- A language model (LLM) toolchain could, if connected to the internet, query the Mindat database for factual retrieval of geomaterial properties. 
+ 
+- RAG functionality with Mindat's data would be excellent for systems that would otherwise confabulate answers pertaining to geomaterials, localities, etc. 
+- ⚠️ ©️ ❔ Fair use and commercial applications are outside the scope of this document. Please respect the Mindat team and researchers.
+
+- Could there be a more effecient method to encode mineralogy data into a LLM dataset like K2? 
+    
+
 
 ### The Rust Programming Language
 
-🦀 Rust is a systems level language. Rust in the browser may be usable through WebAssembly to handle JSON, sort the data as downloaded, allow for downloads into a non-relational database schema. 
+Running Rust via web-assembly  may be usable through WebAssembly to handle JSON from the Mindat server. 
+
+- Rust can enable command line functionality for queries, such as a bash script, that can be useful when for users looking for a single page of results.
+- Rust may be helpful in parsing the JSON responses from the server 
 
 
 

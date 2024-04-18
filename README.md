@@ -1,8 +1,8 @@
-# Open-Source Resources for Mindat API, Earth Science, and Data Science
+# Resources for Mindat API, Earth Science, and Data Science
 
 ## **🌏🚧 This page is under construction 🚧🌎**
 
-This is a community maintained repository and is not affiliated with any of the projects below. There are links and resources to Mindat & it's API, associated R / Python packages, and related development projects. 
+This is a community maintained open-source repository and is not affiliated with any of the projects below. There are links and resources to academic research, Mindat & API, R / Python packages, and other nifty information. 🪨
 
 # Academic Research 
 ## [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 

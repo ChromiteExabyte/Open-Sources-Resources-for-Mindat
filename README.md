@@ -1,24 +1,8 @@
 # Open-Source Resources for Mindat API, Earth Science, and Data Science
 
-**🚧 This page is under construction 🚧**
+## **🚧 This page is under construction 🚧**
 
-This is a community maintained repository and is not affiliated with any of the projects below; see the hyperlinks to the project sources for full explanations.
-
-### Mineralogical Data from Mindat.org with Python & R
-
-If you are using Python or R for Data Science, there are completed packages ready for use with the Mindat API!
-
-- [OpenMindat CRAN Package](https://cran.r-project.org/web/packages/OpenMindat/index.html "Mindat API R Package")
-- [OpenMindat Python Package](https://github.com/ChuBL/OpenMindat/wiki)
-
-### Mineralogical Data from Mindat.org without the Python or R Programming Languages
-
-Right now the Mindat API is most accessible through R and Python. However, anyone who can use excel can get started with Python or R. Unlike Excel, these programming languages are free. 
-
-#### Mindat.org through Python for absolute Beginners
-
-First, download the Python programming language at Python.org. Next, visit this URL (https://colab.research.google.com/github/ChuBL/How-to-Use-Mindat-API/blob/main/How_to_Use_Mindat_API.ipynb ) With no programming experience whatsoever, you can follow the steps within this Jupyter Notebook to get started with the API. 
-
+This is a community maintained repository and is not affiliated with any of the projects below. There are links and resources to Mindat & it's API, associated R / Python packages, and related development projects. 
 
 # 
 # [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
@@ -62,16 +46,30 @@ Source: https://api.mindat.org/schema/redoc/
  - [Advanced Search](https://www.mindat.org/advanced_search.php)
 
 
-### Downloading the full Mindat database 
+### Mineralogical Data from Mindat.org with Python & R
+
+If you are using Python or R for Data Science, there are completed packages ready for use with the Mindat API.
+
+- [OpenMindat CRAN Package](https://cran.r-project.org/web/packages/OpenMindat/index.html "Mindat API R Package")
+- [OpenMindat Python Package](https://github.com/ChuBL/OpenMindat/wiki)
+
+### Mineralogical Data from Mindat.org without the Python or R Programming Languages
+
+Right now the Mindat API is most accessible through R and Python. However, anyone who can use Excel can get started with Python or R.
+
+#### Mindat.org through Python for absolute Beginners
+
+First, download the Python programming language at Python.org. Next, visit this URL (https://colab.research.google.com/github/ChuBL/How-to-Use-Mindat-API/blob/main/How_to_Use_Mindat_API.ipynb ) With no programming experience whatsoever, you can follow the steps within this Jupyter Notebook to get started with the API. 
+
+
+
+### How can I download the full Mindat database to a local copy? 
 
 The current footprint of the total Mindat database is measurable in gigabytes. It's lighter than a backpack full of those same geomaterials !
 
 🚧 Items I would like to add to this guide: 
 - Downloading the entire Mindat database to a local copy.
 - Verifying a local database has the most correct information
-
-MrSirCode has a JavaScript implementation below, but I 
-
 
 
 

@@ -1,30 +1,25 @@
-# Resources for Mindat API, Earth Science, and Data Science
+# Links Relating to Mindat, OpenMindat, and other related projects
 
-## **🌏🚧 This page is under construction 🚧🌎**
+#### **🌏🚧 This page is under construction 🚧🌎**
 
-This is a community maintained open-source repository and is not affiliated with any of the projects below. There are links and resources to academic research, Mindat & API, R / Python packages, and other nifty information. 🪨
+This is a community maintained open-source repository and is not affiliated with any of the projects below. There are links and resources to academic research, Mindat & API, R / Python packages, and more. 🪨
 
-# Academic Research 
-## [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
+
+### [OpenMindat: Open and FAIR mineralogy data from the Mindat database](https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204 "OpenMindat Paper") 
 ### Authors: Xiaogang Ma, Jolyon Ralph, Jiyin Zhang, Xiang Que, Anirudh Prabhu, Shaunna M. Morrison, Robert M. Hazen, Lesley Wyborn, Kerstin Lehnert
-#### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
+##### Published in Geoscience Data Journal Volume 11, Issue 1 p. 94-104
 - Accessible at https://rmets.onlinelibrary.wiley.com/doi/10.1002/gdj3.204
 - Open Access Paper; an inspiring research initiative!
 - The Mindat API and improvements to the data establishes many practical affordances to those working with mineral information !
-- ⭐
 
-- LLM Summary of Abstract: _The open data movement revolutionizes mineralogy, enabling exploration of new topics like mineral ecology and evolution. Availability of open data, coupled with data science and mineralogy expertise, leads to significant discoveries. Feedback highlights the need for better FAIRness (findable, accessible, interoperable, reusable) of open data. This paper discusses recent efforts to build Mindat's open data service, enhancing data quality and establishing a machine interface for data access. OpenMindat aims to meet researchers' increasing data needs in mineralogy, providing an internationally recognized, FAIR-compliant database to accelerate scientific discoveries._
 
-## K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization
-### Authors: Cheng Deng, Tianhang Zhang, Zhongmou He, Yi Xu, Qiyuan Chen, Yuanyuan Shi, Luoyi Fu, Weinan Zhang, Xinbing Wang, Chenghu Zhou, Zhouhan Lin, Junxian He, Zhouhan Lin, Junxian He
+### K2: A Foundation Language Model for Geoscience Knowledge Understanding and Utilization
+#### Authors: Cheng Deng, Tianhang Zhang, Zhongmou He, Yi Xu, Qiyuan Chen, Yuanyuan Shi, Luoyi Fu, Weinan Zhang, Xinbing Wang, Chenghu Zhou, Zhouhan Lin, Junxian He, Zhouhan Lin, Junxian He
 - Accessible at: https://arxiv.org/abs/2306.05064
 - Code Source: https://github.com/davendw49/k2
 - Paper Preprint available on arXiv (2306.05064); paper accepted The 17th ACM International Conference on Web Search and Data Mining
-- ⭐
 
-- LLM Summary of Abstract: _"Introducing K2, the first large language model (LLM) for geoscience, along with GeoSignal, a dataset for aligning LLM responses to geoscience queries, and GeoBench, the first geoscience LLM benchmark. The LLaMA-7B model was fine-tuned on 5.5B tokens of geoscience text, including 1M+ literature pieces, and equipped K2 with geoscience abilities. The approach and datasets, along with all training data and model checkpoints, are open-sourced at [link]."_
 
-#
 # [Mindat.org](Mindat.org)
 _The world's most comprehensive mineral database and mineralogical reference website"_
 
